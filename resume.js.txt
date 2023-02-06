@@ -1,0 +1,51 @@
+resume.json
+
+let myResume={
+    "basicDetails": {
+      "name": "GOWTHAM B",
+      "email": "gowthamhari46@gamil.com",
+      "phone": 7904190839,
+      "degree": "B,E(MECHANICAL)",
+      "location": {
+        "address": "11,new golden city, Panikkampatti, Pollachi",
+        "postalCode": 642002,
+        "city": "Pollachi",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+    "work": [
+      {
+        "company": "RBL FINSERVE LTD",
+        "position": "Relationship Officer",
+        "startDate": "2018-05-02",
+        "endDate": "2019-11-04",
+        "summary": "Hello I am the Process Business loan(MSME) and Recovery Department lots of experience",
+      },
+    ],
+    "education": [
+      {
+        "College": "Karpagam Academy Of Higher Education",
+        "department": "B.E (MECHANICAL ENGINEERING)",
+        "studyType": "parttime",
+        "batch start year": 2019,
+        "batch end year": 2022,
+       
+      }
+    ],
+    "skills": [
+      {
+        "name": "Microsoft office, 
+        "level": "Expert",
+        "project": [
+          "Done various web assets for web development"
+        ]
+      }
+    ],
+    "languages":["Tamil","English",],
+    "interests": [
+      {
+        "name": ["APP Development", "Web Development"]
+        }
+    ]
+  }
+  console.log(myResume);

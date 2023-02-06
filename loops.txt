@@ -1,0 +1,95 @@
+
+Different Kinds of Loops:
+
+JavaScript supports different kinds of loops:
+
+for - loops through a block of code a number of times.
+for/in - loops through the properties of an object.
+for/of - loops through the values of an iterable object.
+
+
+The ‘For’ Loop:
+
+The For Loop comes first because of its simplicity and ease of use. It is a very user-friendly kind of loop that runs with a method of using a counter. 
+
+The value is first set with an appropriate condition, which is also called ‘initializing a loop’. Next, the terminal or final value is specified. The For Loop makes things really easy when you need to run a set of codes multiple times.
+
+The For Loop is further divided into:?
+
+1. Using an array:
+
+The following piece of code is a perfect example of how to use a for loop through an array. 
+
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+?
+I have used all the numbers in the form of an array, then printed each of them in a console window. In the same way, you can make a loop through an array of strings.
+
+2. Making a loop through DOM elements:
+
+The For loop can also be used to alter colors. Consider a situation where you want to choose a particular color for all the anchors of your page. In order to do so, use the following piece of code.
+
+The ‘For In’ Loop:
+
+Another way of looping is the For In Loop. Unlike the For Loop, this loop won’t be using a counter. So this makes the whole process even more simple and hassle-free. In fact, the For In Loop is essentially a simplified version of the For Loop.
+
+The following are different ways of looping using the For In technique.
+
+1. Looping through an Object Property
+Here’s an example; you’ve got an object containing some properties and you need to look up each property and the value that it carries. Here’s how you would use the For In Loop to do so:
+var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+?
+
+Looping through an Object Property
+Looping Using JSON
+JSON stands for JavaScript Object Notation. It’s a light format for storing and transferring data from one place to another. So in looping, it is one of the most commonly used techniques for transporting data that is the array format or in attribute values. 
+
+Here’s an example that demonstrates the above concept.
+
+jsonData ={
+   one: [11, 12, 13, 14, 15],
+   two: [21, 22, 23],
+   three: [31, 32]
+}
+?
+
+JavaScript Object Notation also consists of a root, namely, the jsonData. It further contains three nodes that are called, “one”, “two”, and “three”.
+
+3. The ForEach() Loop:
+
+The forEach() method calls a function for each element in an array.
+
+The forEach() method is not executed for empty elements.
+
+This method is used for looping through an array element. Here’s an example of this:
+
+Example:
+
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+names.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+?
+4. The For Of Loop:
+
+The JavaScript for of statement loops through the values of an iterable object.
+
+Syntax:
+
+for (variable of iterable) {
+  // code block to be executed
+}
+
+Variable - For every iteration the value of the next property is assigned to the variable. Variable can be declared with const, let, or var.
+
+Iterable - An object that has iterable properties.
